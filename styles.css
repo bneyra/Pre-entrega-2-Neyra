@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+}
+
+.post__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post__list__item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.post__list__item__user {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post__list__item__content {
+    margin-bottom: 5px;
+}
+
+.post__list__item__date {
+    font-size: 0.9em;
+    color: #777;
+}
